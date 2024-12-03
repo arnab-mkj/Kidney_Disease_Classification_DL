@@ -245,3 +245,248 @@ x===========x]
 [2024-11-10 17:27:05,590: INFO: main: >>>>>> stage  Training completed <<<<<<<
 
 x===========x]
+[2024-11-14 15:21:49,126: INFO: main: >>>>>> stage  Data Ingestion stage started <<<<<<<]
+[2024-11-14 15:21:49,137: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 15:21:49,145: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 15:21:49,146: INFO: common: created directory at: artifacts]
+[2024-11-14 15:21:49,146: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-14 15:21:49,146: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ba-F3UWw6CeFiWdr3rsQ6buCQJ0PGK5a/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 15:21:57,038: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ba-F3UWw6CeFiWdr3rsQ6buCQJ0PGK5a/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 15:21:57,307: INFO: main: >>>>>> stage  Data Ingestion stage completed <<<<<<<
+
+x===========x]
+[2024-11-14 15:21:57,307: INFO: main: *********************]
+[2024-11-14 15:21:57,307: INFO: main: >>>>>> stage  Prepare base model started <<<<<<<]
+[2024-11-14 15:21:57,307: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 15:21:57,313: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 15:21:57,313: INFO: common: created directory at: artifacts]
+[2024-11-14 15:21:57,313: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-11-14 15:21:57,935: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-14 15:21:58,217: INFO: main: >>>>>> stage  Prepare base model completed <<<<<<<
+
+x===========x]
+[2024-11-14 15:21:58,217: INFO: main: *********************]
+[2024-11-14 15:21:58,217: INFO: main: >>>>>> stage  Training started <<<<<<<]
+[2024-11-14 15:21:58,217: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 15:21:58,217: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 15:21:58,217: INFO: common: created directory at: artifacts]
+[2024-11-14 15:21:58,217: INFO: common: created directory at: artifacts\training]
+[2024-11-14 15:23:43,579: INFO: main: >>>>>> stage  Data Ingestion stage started <<<<<<<]
+[2024-11-14 15:23:43,579: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 15:23:43,579: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 15:23:43,579: INFO: common: created directory at: artifacts]
+[2024-11-14 15:23:43,579: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-14 15:23:43,579: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1ba-F3UWw6CeFiWdr3rsQ6buCQJ0PGK5a/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 15:23:50,219: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1ba-F3UWw6CeFiWdr3rsQ6buCQJ0PGK5a/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 15:23:50,392: INFO: main: >>>>>> stage  Data Ingestion stage completed <<<<<<<
+
+x===========x]
+[2024-11-14 15:23:50,392: INFO: main: *********************]
+[2024-11-14 15:23:50,392: INFO: main: >>>>>> stage  Prepare base model started <<<<<<<]
+[2024-11-14 15:23:50,408: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 15:23:50,408: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 15:23:50,408: INFO: common: created directory at: artifacts]
+[2024-11-14 15:23:50,408: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-11-14 15:23:50,822: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-14 15:23:51,027: INFO: main: >>>>>> stage  Prepare base model completed <<<<<<<
+
+x===========x]
+[2024-11-14 15:23:51,027: INFO: main: *********************]
+[2024-11-14 15:23:51,027: INFO: main: >>>>>> stage  Training started <<<<<<<]
+[2024-11-14 15:23:51,027: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 15:23:51,027: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 15:23:51,027: INFO: common: created directory at: artifacts]
+[2024-11-14 15:23:51,027: INFO: common: created directory at: artifacts\training]
+[2024-11-14 16:01:47,136: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:01:47,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:01:47,141: INFO: common: created directory at: artifacts]
+[2024-11-14 16:07:05,859: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:07:05,863: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:07:05,865: INFO: common: created directory at: artifacts]
+[2024-11-14 16:07:11,238: INFO: common: json file saved at: scores.json]
+[2024-11-14 16:07:14,710: INFO: builder_impl: Assets written to: C:\Users\arnab\AppData\Local\Temp\tmp8gia4o3x\model\data\model\assets]
+[2024-11-14 16:12:27,992: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:12:27,995: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:12:27,996: INFO: common: created directory at: artifacts]
+[2024-11-14 16:12:33,274: INFO: common: json file saved at: scores.json]
+[2024-11-14 16:12:36,499: INFO: builder_impl: Assets written to: C:\Users\arnab\AppData\Local\Temp\tmpao9uki0f\model\data\model\assets]
+[2024-11-14 16:37:34,108: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:37:34,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:37:34,112: INFO: common: created directory at: artifacts]
+[2024-11-14 16:37:34,113: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-14 16:37:34,114: INFO: 2288733769: Downloading data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 16:39:11,734: INFO: main: >>>>>> stage  Data Ingestion stage started <<<<<<<]
+[2024-11-14 16:39:11,736: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:39:11,738: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:39:11,739: INFO: common: created directory at: artifacts]
+[2024-11-14 16:39:11,739: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-14 16:39:11,739: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 16:40:52,822: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 16:41:02,624: INFO: main: >>>>>> stage  Data Ingestion stage completed <<<<<<<
+
+x===========x]
+[2024-11-14 16:41:02,624: INFO: main: *********************]
+[2024-11-14 16:41:02,624: INFO: main: >>>>>> stage  Prepare base model started <<<<<<<]
+[2024-11-14 16:41:02,627: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:41:02,629: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:41:02,630: INFO: common: created directory at: artifacts]
+[2024-11-14 16:41:02,630: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-11-14 16:41:03,390: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-14 16:41:03,647: INFO: main: >>>>>> stage  Prepare base model completed <<<<<<<
+
+x===========x]
+[2024-11-14 16:41:03,647: INFO: main: *********************]
+[2024-11-14 16:41:03,647: INFO: main: >>>>>> stage  Training started <<<<<<<]
+[2024-11-14 16:41:03,650: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:41:03,652: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:41:03,653: INFO: common: created directory at: artifacts]
+[2024-11-14 16:41:03,653: INFO: common: created directory at: artifacts\training]
+[2024-11-14 16:41:08,243: ERROR: main: Graph execution error:
+
+Detected at node 'categorical_crossentropy/softmax_cross_entropy_with_logits' defined at (most recent call last):
+    File "main.py", line 40, in <module>
+      model_trainer.main()
+    File "e:\progs\kidney_disease_classification_dl\src\cnnClassifier\pipeline\stage_03_model_training.py", line 21, in main
+      training.train()
+    File "e:\progs\kidney_disease_classification_dl\src\cnnClassifier\components\model_training.py", line 73, in train
+      self.model.fit(
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\utils\traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1742, in fit
+      tmp_logs = self.train_function(iterator)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function
+      return step_function(self, iterator)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step
+      outputs = model.train_step(data)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1081, in train_step
+      loss = self.compute_loss(x, y, y_pred, sample_weight)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1139, in compute_loss
+      return self.compiled_loss(
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\compile_utils.py", line 265, in __call__
+      loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\losses.py", line 142, in __call__
+      losses = call_fn(y_true, y_pred)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\losses.py", line 268, in call
+      return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\losses.py", line 2122, in categorical_crossentropy
+      return backend.categorical_crossentropy(
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\backend.py", line 5566, in categorical_crossentropy
+      return tf.nn.softmax_cross_entropy_with_logits(
+Node: 'categorical_crossentropy/softmax_cross_entropy_with_logits'
+logits and labels must be broadcastable: logits_size=[16,2] labels_size=[16,3]
+	 [[{{node categorical_crossentropy/softmax_cross_entropy_with_logits}}]] [Op:__inference_train_function_1906]]
+Traceback (most recent call last):
+  File "main.py", line 40, in <module>
+    model_trainer.main()
+  File "e:\progs\kidney_disease_classification_dl\src\cnnClassifier\pipeline\stage_03_model_training.py", line 21, in main
+    training.train()
+  File "e:\progs\kidney_disease_classification_dl\src\cnnClassifier\components\model_training.py", line 73, in train
+    self.model.fit(
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\tensorflow\python\eager\execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'categorical_crossentropy/softmax_cross_entropy_with_logits' defined at (most recent call last):
+    File "main.py", line 40, in <module>
+      model_trainer.main()
+    File "e:\progs\kidney_disease_classification_dl\src\cnnClassifier\pipeline\stage_03_model_training.py", line 21, in main
+      training.train()
+    File "e:\progs\kidney_disease_classification_dl\src\cnnClassifier\components\model_training.py", line 73, in train
+      self.model.fit(
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\utils\traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1742, in fit
+      tmp_logs = self.train_function(iterator)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function
+      return step_function(self, iterator)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step
+      outputs = model.train_step(data)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1081, in train_step
+      loss = self.compute_loss(x, y, y_pred, sample_weight)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\training.py", line 1139, in compute_loss
+      return self.compiled_loss(
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\engine\compile_utils.py", line 265, in __call__
+      loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\losses.py", line 142, in __call__
+      losses = call_fn(y_true, y_pred)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\losses.py", line 268, in call
+      return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\losses.py", line 2122, in categorical_crossentropy
+      return backend.categorical_crossentropy(
+    File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\backend.py", line 5566, in categorical_crossentropy
+      return tf.nn.softmax_cross_entropy_with_logits(
+Node: 'categorical_crossentropy/softmax_cross_entropy_with_logits'
+logits and labels must be broadcastable: logits_size=[16,2] labels_size=[16,3]
+	 [[{{node categorical_crossentropy/softmax_cross_entropy_with_logits}}]] [Op:__inference_train_function_1906]
+[2024-11-14 16:42:54,539: INFO: main: >>>>>> stage  Data Ingestion stage started <<<<<<<]
+[2024-11-14 16:42:54,549: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:42:54,549: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:42:54,549: INFO: common: created directory at: artifacts]
+[2024-11-14 16:42:54,549: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-14 16:42:54,549: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 16:44:27,168: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 16:44:37,044: INFO: main: >>>>>> stage  Data Ingestion stage completed <<<<<<<
+
+x===========x]
+[2024-11-14 16:44:37,044: INFO: main: *********************]
+[2024-11-14 16:44:37,044: INFO: main: >>>>>> stage  Prepare base model started <<<<<<<]
+[2024-11-14 16:44:37,046: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:44:37,049: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:44:37,050: INFO: common: created directory at: artifacts]
+[2024-11-14 16:44:37,050: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-11-14 16:44:37,576: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-14 16:44:37,786: INFO: main: >>>>>> stage  Prepare base model completed <<<<<<<
+
+x===========x]
+[2024-11-14 16:44:37,786: INFO: main: *********************]
+[2024-11-14 16:44:37,786: INFO: main: >>>>>> stage  Training started <<<<<<<]
+[2024-11-14 16:44:37,788: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:44:37,790: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:44:37,790: INFO: common: created directory at: artifacts]
+[2024-11-14 16:44:37,791: INFO: common: created directory at: artifacts\training]
+[2024-11-14 16:50:28,624: INFO: main: >>>>>> stage  Data Ingestion stage started <<<<<<<]
+[2024-11-14 16:50:28,624: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:50:28,624: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:50:28,624: INFO: common: created directory at: artifacts]
+[2024-11-14 16:50:28,624: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-11-14 16:50:28,624: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 16:51:59,045: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-11-14 16:52:06,726: INFO: main: >>>>>> stage  Data Ingestion stage completed <<<<<<<
+
+x===========x]
+[2024-11-14 16:52:06,726: INFO: main: *********************]
+[2024-11-14 16:52:06,726: INFO: main: >>>>>> stage  Prepare base model started <<<<<<<]
+[2024-11-14 16:52:06,726: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:52:06,742: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:52:06,742: INFO: common: created directory at: artifacts]
+[2024-11-14 16:52:06,742: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-11-14 16:52:07,233: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-14 16:52:07,468: INFO: main: >>>>>> stage  Prepare base model completed <<<<<<<
+
+x===========x]
+[2024-11-14 16:52:07,468: INFO: main: *********************]
+[2024-11-14 16:52:07,468: INFO: main: >>>>>> stage  Training started <<<<<<<]
+[2024-11-14 16:52:07,468: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 16:52:07,468: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 16:52:07,468: INFO: common: created directory at: artifacts]
+[2024-11-14 16:52:07,468: INFO: common: created directory at: artifacts\training]
+[2024-11-14 17:27:27,893: INFO: main: >>>>>> stage  Training completed <<<<<<<
+
+x===========x]
+[2024-11-14 17:27:27,894: INFO: main: *******************]
+[2024-11-14 17:27:27,894: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-11-14 17:27:27,897: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-11-14 17:27:27,898: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-11-14 17:27:27,899: INFO: common: created directory at: artifacts]
+[2024-11-14 17:30:01,423: INFO: common: json file saved at: scores.json]
+[2024-11-14 17:30:01,423: INFO: common: json file saved at: scores.json]
+[2024-11-14 17:30:04,998: INFO: builder_impl: Assets written to: C:\Users\arnab\AppData\Local\Temp\tmpu1etj0y6\model\data\model\assets]
+[2024-11-14 17:30:54,063: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

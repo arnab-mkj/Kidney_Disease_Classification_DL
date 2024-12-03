@@ -39,4 +39,4 @@ class DataIngestion:
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)
             
-            
+        
