@@ -501,3 +501,35 @@ x==========x]
 [2024-12-03 19:44:23,364: INFO: common: created directory at: artifacts]
 [2024-12-03 19:44:23,365: INFO: common: created directory at: artifacts/data_ingestion]
 [2024-12-03 19:44:23,365: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-04 14:06:02,087: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.121:8080]
+[2024-12-04 14:06:02,088: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-12-04 14:06:32,098: INFO: _internal: 127.0.0.1 - - [04/Dec/2024 14:06:32] "GET / HTTP/1.1" 200 -]
+[2024-12-04 14:06:40,592: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "e:\progs\kidney_disease_classification_dl\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\saving\saving_api.py", line 238, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\arnab\.conda\envs\kidney\lib\site-packages\keras\src\saving\legacy\save.py", line 234, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-12-04 14:06:40,619: INFO: _internal: 127.0.0.1 - - [04/Dec/2024 14:06:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
