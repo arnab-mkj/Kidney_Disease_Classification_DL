@@ -533,3 +533,23 @@ Traceback (most recent call last):
     raise IOError(
 OSError: No file or directory found at model\model.h5
 [2024-12-04 14:06:40,619: INFO: _internal: 127.0.0.1 - - [04/Dec/2024 14:06:40] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-12-04 14:24:13,800: INFO: stage_01_data_ingestion: >>>>>> stage  Data Ingestion Stage started <<<<<<<]
+[2024-12-04 14:24:13,809: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-04 14:24:13,811: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-04 14:24:13,812: INFO: common: created directory at: artifacts]
+[2024-12-04 14:24:13,812: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-04 14:24:13,812: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-04 14:25:46,327: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-04 14:25:54,429: INFO: stage_01_data_ingestion: >>>>>> stage  Data Ingestion Stage completed <<<<<<<
+
+x===========x]
+[2024-12-04 14:27:21,130: INFO: stage_01_data_ingestion: >>>>>> stage  Data Ingestion Stage started <<<<<<<]
+[2024-12-04 14:27:21,132: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-04 14:27:21,134: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-04 14:27:21,134: INFO: common: created directory at: artifacts]
+[2024-12-04 14:27:21,134: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-04 14:27:21,134: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-04 14:29:03,962: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1pUPrpWsavXbaLMp36zAPJdwjy1HcFnc4/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-04 14:29:12,877: INFO: stage_01_data_ingestion: >>>>>> stage  Data Ingestion Stage completed <<<<<<<
+
+x===========x]
